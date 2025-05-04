@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            border: 2px solid red;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        #navbar {
+            width: 100%;
+            min-height: 50px;
+            padding: 0px 32px;
+            background-color: black;
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            /* justify-content: space-between; */
+        }
+
+        .nav-item {
+            color: white;
+            font-size: 18px;
+        }
+
+        #sidebar {
+            width: 300px;
+            border-right: 3px solid black;
+            height: 520px;
+        }
+
+        #main {
+            border: 5px solid blue;
+            display: flex;
+        }
+
+        #content {
+            background-color: yellow;
+        }
+
+        #advertisement {
+            width: 300px;
+            border-left: 3px solid black;
+            height: 520px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <div id="navbar">
+        <div style="display: flex; gap: 12px; ">
+            <div class="nav-item">Home</div>
+            <div class="nav-item">About</div>
+            <div class="nav-item">Contact Us</div>
+        </div>
+        <div style="display: flex; gap: 12px; ">
+            <div class="nav-item">Register</div>
+            <div class="nav-item">Login</div>
+
+        </div>
+    </div> -->
+    <div id="navbar">
+        <div class="nav-item">Home</div>
+        <div class="nav-item">About</div>
+        <div class="nav-item">Contact Us</div>
+        <div style="margin-left: auto;" class="nav-item">Register</div>
+        <div class="nav-item">Login</div>
+        <div class="nav-item">Search</div>
+    </div>
+
+    <div id="main">
+        <div id="sidebar">
+            <h3>Side bar</h3>
+            <ul>
+                <li>dummy</li>
+                <li>dummy</li>
+                <li>dummy</li>
+                <li>dummy</li>
+                <li>dummy</li>
+                <li>dummy</li>
+                <li>dummy</li>
+                <li>dummy</li>
+            </ul>
+        </div>
+        <div id="content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem eligendi voluptatem voluptatum
+                delectus quidem totam vero, commodi incidunt nemo facilis iusto fugiat debitis eius pariatur eaque ipsa
+                sapiente reiciendis minus.</p>
+            <img style="width:300px;" src="img/WhatsApp Image 2025-05-03 at 19.08.54_8cb32473.jpg" alt="">
+        </div>
+        <div id="advertisement">
+            right
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
